@@ -1,0 +1,2 @@
+Gender: M
+Recommended Products are: ['Jacket', 'Suit', 'T_Shirt']
