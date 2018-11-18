@@ -1,2 +1,3 @@
 Gender: M
-Recommended Products are: ['Jacket', 'Suit', 'T_Shirt']
+Size: 9
+Recommended Products are: ['Shirt', 'Suit', 'Jacket']

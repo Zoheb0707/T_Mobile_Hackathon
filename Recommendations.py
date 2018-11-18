@@ -2,7 +2,7 @@ import pandas as pd
 
 data = pd.read_csv(filepath_or_buffer = 'Data.csv')
 
-input_user_id = 5#int(input('Enter username: '))
+input_user_id = 2#int(input('Enter username: '))
 
 if type(input_user_id) != int:
     raise ValueError('User Id in supposed to be an Integer')
@@ -26,6 +26,7 @@ Jacket_count = sum(filtered_data['Jacket'])
 Crop_top_count = sum(filtered_data['Crop_top'])
 Bra = sum(filtered_data['Suit'])
 Vest = sum(filtered_data['Vest'])
+size = int(data[data['user_id'] == input_user_id]['Size'])
 
 cloth_list = [Sweater_count, Blouse_count, T_Shirt_count, Shirt_count, Tank_top_count, 
               Jacket_count, Crop_top_count, Bra, Vest]
@@ -41,4 +42,5 @@ for i in indices:
 f= open("output.txt","w+")
 
 f.write('Gender: ' + str(data.iloc[input_user_id]['gender'] + '\n'))
+f.write('Size: ' + str(size) + '\n')
 f.write('Recommended Products are: ' + str(cloth_recommendations))
