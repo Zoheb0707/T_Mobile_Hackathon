@@ -2,7 +2,7 @@ import pandas as pd
 
 data = pd.read_csv(filepath_or_buffer = 'Data.csv')
 
-input_user_id = 2#int(input('Enter username: '))
+input_user_id = 19#int(input('Enter username: '))
 
 if type(input_user_id) != int:
     raise ValueError('User Id in supposed to be an Integer')
