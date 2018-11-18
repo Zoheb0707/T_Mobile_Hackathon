@@ -1,0 +1,156 @@
+{
+  materials: [
+    {
+      name: 'Shirt00_1Button_FRONT',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.37,
+            0.37,
+            0.37,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Shirt00_1Button_FRONT_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.59999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'Shirt00_1Material4782',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.23000000000000001,
+            0.23000000000000001,
+            0.23000000000000001,
+            1,
+          ],
+        },
+        {
+          baseColor: 'Shirt00_1Material4782_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: null,
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.59999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/shirt/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/shirt\\textures/Shirt00_1Button_FRONT_baseColor.jpg',
+      name: 'Shirt00_1Button_FRONT_baseColor',
+      pipeline_name: 'textures/Shirt00_1Button_FRONT_baseColor.jpg',
+    },
+    {
+      file: 'sampledata/models/shirt\\textures/Shirt00_1Material4782_baseColor.png',
+      name: 'Shirt00_1Material4782_baseColor',
+      pipeline_name: 'textures/Shirt00_1Material4782_baseColor.png',
+    },
+  ],
+  version: '0.52:1',
+}

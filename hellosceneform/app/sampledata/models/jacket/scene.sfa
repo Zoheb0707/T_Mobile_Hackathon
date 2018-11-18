@@ -1,0 +1,444 @@
+{
+  materials: [
+    {
+      name: 'leather',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'leather_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'leather_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0.81939200000000001,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'leather_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'metal',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'metal_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'metal_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'metal_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'paint',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.39800799999999997,
+            0.39800799999999997,
+            0.39800799999999997,
+            1,
+          ],
+        },
+        {
+          baseColor: 'paint_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'paint_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 0.366562,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'paint_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'zipp',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'zipp_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'zipp_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'zipp_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'zzip_lock',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'zzip_lock_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'zzip_lock_normal',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'zzip_lock_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/jacket/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.64941400000000005,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/jacket\\textures/paint_metallicRoughness.png',
+      name: 'paint_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/paint_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/leather_baseColor.jpg',
+      name: 'leather_baseColor',
+      pipeline_name: 'textures/leather_baseColor.jpg',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/leather_metallicRoughness.png',
+      name: 'leather_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/leather_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/leather_normal.png',
+      name: 'leather_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/leather_normal.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/metal_baseColor.jpg',
+      name: 'metal_baseColor',
+      pipeline_name: 'textures/metal_baseColor.jpg',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/metal_metallicRoughness.png',
+      name: 'metal_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/metal_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zipp_metallicRoughness.png',
+      name: 'zipp_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/zipp_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/paint_baseColor.png',
+      name: 'paint_baseColor',
+      pipeline_name: 'textures/paint_baseColor.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/metal_normal.png',
+      name: 'metal_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/metal_normal.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/paint_normal.png',
+      name: 'paint_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/paint_normal.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zipp_baseColor.png',
+      name: 'zipp_baseColor',
+      pipeline_name: 'textures/zipp_baseColor.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zipp_normal.png',
+      name: 'zipp_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/zipp_normal.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zzip_lock_baseColor.jpg',
+      name: 'zzip_lock_baseColor',
+      pipeline_name: 'textures/zzip_lock_baseColor.jpg',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zzip_lock_metallicRoughness.png',
+      name: 'zzip_lock_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/zzip_lock_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/jacket\\textures/zzip_lock_normal.png',
+      name: 'zzip_lock_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/zzip_lock_normal.png',
+    },
+  ],
+  version: '0.52:1',
+}

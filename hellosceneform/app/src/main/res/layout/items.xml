@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 shirts found" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/shirtButton"
+            android:layout_width="361dp"
+            android:layout_height="261dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/shirt" />
+
+        <ImageView
+            android:id="@+id/jacket"
+            android:layout_width="346dp"
+            android:layout_height="263dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/jacket" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/suit"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/manly_shirt" />
+    </LinearLayout>
+
+</LinearLayout>

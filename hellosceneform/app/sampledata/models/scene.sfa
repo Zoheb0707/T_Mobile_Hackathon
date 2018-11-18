@@ -1,0 +1,95 @@
+{
+  materials: [
+    {
+      name: 'm_suit_01',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'm_suit_01_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'm_suit_01_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.59999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\textures/m_suit_01_baseColor.png',
+      name: 'm_suit_01_baseColor',
+      pipeline_name: 'textures/m_suit_01_baseColor.png',
+    },
+    {
+      file: 'sampledata/models\\textures/m_suit_01_normal.png',
+      name: 'm_suit_01_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/m_suit_01_normal.png',
+    },
+  ],
+  version: '0.52:1',
+}

@@ -1,0 +1,176 @@
+{
+  materials: [
+    {
+      name: 'blinn1',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.21427199999999999,
+            0.21427199999999999,
+            0.21427199999999999,
+            1,
+          ],
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'blinn1_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.58098300000000003,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'blinn2',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'blinn2_baseColor',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: 'blinn2_normal',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'blinn2_metallicRoughness',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/model/scene.gltf',
+    name: 'scene',
+    recenter: 'root',
+    scale: 0.098721000000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/model\\textures/blinn2_metallicRoughness.png',
+      name: 'blinn2_metallicRoughness',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures/blinn2_metallicRoughness.png',
+    },
+    {
+      file: 'sampledata/models/model\\textures/blinn1_normal.jpeg',
+      name: 'blinn1_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/blinn1_normal.jpeg',
+    },
+    {
+      file: 'sampledata/models/model\\textures/blinn2_baseColor.png',
+      name: 'blinn2_baseColor',
+      pipeline_name: 'textures/blinn2_baseColor.png',
+    },
+    {
+      file: 'sampledata/models/model\\textures/blinn2_normal.png',
+      name: 'blinn2_normal',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'textures/blinn2_normal.png',
+    },
+  ],
+  version: '0.52:1',
+}
